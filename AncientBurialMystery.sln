@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AncientBurialMystery", "AncientBurialMystery\AncientBurialMystery.csproj", "{394FB27D-C0C6-4C12-B662-7BAE1852CA52}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{78F0E977-C022-42EE-95DD-C14B51A6959C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AncientBurialMystery.Tests", "AncientBurialMystery.Tests\AncientBurialMystery.Tests.csproj", "{FD912AFF-3E0E-4CD9-8440-3AC72A236C47}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{394FB27D-C0C6-4C12-B662-7BAE1852CA52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{394FB27D-C0C6-4C12-B662-7BAE1852CA52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{394FB27D-C0C6-4C12-B662-7BAE1852CA52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{394FB27D-C0C6-4C12-B662-7BAE1852CA52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD912AFF-3E0E-4CD9-8440-3AC72A236C47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD912AFF-3E0E-4CD9-8440-3AC72A236C47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD912AFF-3E0E-4CD9-8440-3AC72A236C47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD912AFF-3E0E-4CD9-8440-3AC72A236C47}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FD912AFF-3E0E-4CD9-8440-3AC72A236C47} = {78F0E977-C022-42EE-95DD-C14B51A6959C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5A950BB1-4F4A-4280-B9D0-E1E6144ED7A6}
+	EndGlobalSection
+EndGlobal
